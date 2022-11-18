@@ -266,6 +266,8 @@ $("#id_btn_filtrar").click(function(){
 
 $('#id_reg_ciudad').select2();
 $('#id_reg_ocupacion').select2();
+$('#id_act_ciudad').select2();
+$('#id_act_ocupacion').select2();
 
 function agregarGrilla(lista){
 	 $('#id_table').DataTable().clear();
